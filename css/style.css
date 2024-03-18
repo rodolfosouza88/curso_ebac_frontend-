@@ -1,0 +1,124 @@
+
+body > header {
+    background-color:#2f3640;
+    padding: 16px 0;
+    color: #fff;
+}
+
+#cima {
+    margin-left: 900px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;;
+    padding:50;
+}
+
+header .container {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+header li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 200px  
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article P,
+.articles article a  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.318);
+}
+
+#esportes .articles article a {
+    background-color: #009432;
+}
+
+#economia {
+    background-color: #fffa65;
+}
+
+#economia .articles article a {
+    background-color: #ff9f1a;
+}
+
+#cinema
+{
+    background-color: rgb(136, 123, 247);
+}
+#cinema .articles article a
+{
+    background-color: rgb(43, 23, 62);
+}
+
+#Entreterimento
+{
+    background-color: rgba(152, 28, 28, 0.333);
+}
+#Entreterimento .articles article a
+{
+    background-color: rgb(60, 2, 2);
+}
